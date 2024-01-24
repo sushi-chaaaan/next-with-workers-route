@@ -1,0 +1,6 @@
+name = "next-with-workers-route"
+compatibility_date = "2023-01-01"
+main = "workers/index.ts"
+
+[site]
+bucket = "./workers/assets"
