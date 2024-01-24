@@ -73,12 +73,9 @@ module.exports = {
   ignorePatterns: [
     ".eslintrc.cjs",
     ".lintstagedrc.mjs",
-    "markuplint.config.ts",
     "next.config.js",
-    "postcss.config.cjs",
+    "postcss.config.js",
     "prettier.config.mjs",
-    "stylelint.config.mjs",
-    "./src/data/kafuec/color.mjs",
     "**/node_modules/**",
   ],
-}
+};

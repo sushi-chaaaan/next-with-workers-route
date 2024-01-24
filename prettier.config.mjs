@@ -4,4 +4,4 @@ export default {
   // config
   semi: false,
   singleQuote: false,
-}
+};
