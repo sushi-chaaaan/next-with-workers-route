@@ -3,14 +3,6 @@ import { serveStatic } from "hono/cloudflare-workers";
 
 const app = new Hono();
 
-app.get(
-  "/static/*",
-  serveStatic({
-    root: "./assets",
-    onNotFound: (path, c) => {
-      console.log(`${path} is not found, you access ${c.req.path}`);
-    },
-  })
-);
+app.use("/static/*", serveStatic());
 
 export default app;

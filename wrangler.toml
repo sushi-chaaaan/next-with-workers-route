@@ -2,5 +2,6 @@ name = "next-with-workers-route"
 compatibility_date = "2023-01-01"
 main = "workers/index.ts"
 
+# https://zenn.dev/knaka0209/scraps/14ec0f820346f6
 [site]
-bucket = "./workers/assets"
+bucket = "./workers/public"
